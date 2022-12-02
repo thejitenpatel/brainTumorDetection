@@ -1,0 +1,8 @@
+tensorflow; python_version < "3.11"
+opencv-python
+pandas
+seaborn
+scikit-learn
+matplotlib
+gradio
+twilio
