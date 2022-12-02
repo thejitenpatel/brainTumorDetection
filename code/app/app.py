@@ -9,7 +9,6 @@ model = tf.keras.models.load_model("models/modelv1.h5")
 
 
 # Classifying the Image
-
 def classify_image(input_image):
     opencvImage = cv2.cvtColor(np.array(input_image), cv2.COLOR_RGB2BGR)
     img = cv2.resize(opencvImage, (150, 150))
